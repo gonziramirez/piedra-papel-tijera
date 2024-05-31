@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/fondo.png");
+  font-family: "American Typewriter", serif;
+  background-color: rgba(255, 255, 255, 1);
+  height: 100vh;
+  overflow: hidden; 
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.welcome-title {
+  color: #009048;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.welcome-title-letter {
+  color: #91ccaf;
+}
+
+.start-button {
+  font-weight: 400;
+  font-size: 45px;
+  font-family: Odibee Sans;
+  color: #d8fcfc;
+  border: 10px solid #001997;
+  border-radius: 10px;
+  background-color: #006cfc;
+  text-align: center;
+  padding: 10px 80px;
+  cursor: pointer;
+  margin: 50px 0;
+}
+
+.start-button:hover {
+  transition: 0.5s;
+  color: white;
+  background-color: #009048;
+  border: 10px solid #004221;
+}
+
+.hands {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  transform: translateY(15px);
+}
+
+.hand {
+  cursor: pointer;
+}
+
+@media (max-width: 460px) {
+  .hand {
+    transform: scale(0.7);
+  }
+}
+@media (max-width: 350px){
+  .hands{
+    gap: 5px;
+    transform: translateY(50px);
+  }
+}
