@@ -1,1 +1,1 @@
-[Piedra Papel o Tijera](URL_de_GitHub_Pages)
+[Piedra Papel o Tijera](https://gonziramirez.github.io/piedra-papel-tijera/)
